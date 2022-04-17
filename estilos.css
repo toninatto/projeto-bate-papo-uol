@@ -1,0 +1,50 @@
+body {
+    width: 375px;
+    height: 667px;
+    background-color: blueviolet;
+    
+}
+.caixa-topo {
+    width: 375px;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.caixa-topo img:nth-child(1) {
+    width: 75px;
+    height: 53px;
+    margin-top: 16px;
+    margin-left: 22px;
+}
+.caixa-topo img:nth-child(2) {
+    width: 42.19px;
+    height: 30.94px;
+    margin-top: 25.03px;
+    margin-left: 213.41px;
+}
+.caixa-send {
+    width: 375px;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.caixa-send img {
+    width: 26px;
+    height: 26px;
+    margin-top: 27px;
+    margin-left: 69px;
+}
+.caixa-send input {
+    height: 30px;
+    width: 245px;
+    margin-top: 25px;
+    margin-left: 17px;
+}
